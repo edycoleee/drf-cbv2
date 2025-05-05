@@ -1,0 +1,11 @@
+# siswa/urls.py
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from siswa.views import SiswaViewSet
+
+router = DefaultRouter()
+router.register(r'siswa', SiswaViewSet, basename='siswa')
+
+urlpatterns = [
+    path('', include(router.urls)),
+]

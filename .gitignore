@@ -1,0 +1,43 @@
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Django migrations
+*/migrations/
+
+# Django secret key
+*.env
+
+# Database files
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Coverage reports
+.coverage
+*.coveragerc
+
+# Logs
+*.log
+
+# Media files
+media/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Django static files
+static/
+
+# Ignore .env files or any other sensitive files
+*.env
